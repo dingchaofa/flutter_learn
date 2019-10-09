@@ -27,6 +27,9 @@ multi-line strings like this one.
   print(s2);
   var s3 = r'In a raw string, not even \\\\n gets special treatment.';
   print(s3);
+  var s4 = r"In a raw string, not even \\\\n gets special treatmen"
+  "11t.";
+  print(s4);
   if (s2.isEmpty) {}
   var constantList = [1, 2, 3, 4.3];
   constantList[1] = 1; // Uncommenting this causes an error.
